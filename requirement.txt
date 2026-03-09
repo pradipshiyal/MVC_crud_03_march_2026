@@ -1,0 +1,16 @@
+PHP -S localhost:8000 -t public
+
+product crud using mvc (duration 1 week)
+	- tables
+		- product
+			- id, name, description, image, price, status
+		- brand
+			- id, name, image
+	- MVC structure
+		/app
+			/controllers
+			/models
+			/views
+		/public
+			index.php
+	- establish one to many relation (brand Products)
