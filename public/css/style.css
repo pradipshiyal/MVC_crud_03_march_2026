@@ -1,0 +1,151 @@
+:root {
+  --bg-gradient: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+
+body {
+  background-color: #eef1f5;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+  transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card .card-img-top {
+  height: 220px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.price {
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+}
+
+.add-brand {
+  width: 510px;
+  border-radius: 15px;
+  margin-top: 140px;
+}
+
+.add-product {
+  margin-top: 80px;
+}
+
+.card-brand {
+  background: var(--bg-gradient);
+  border: none;
+  border-radius: 12px;
+  color: white;
+}
+
+.brand-image {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.product-image {
+  height: 250px;
+  width: 100%;
+}
+
+.product-card {
+  background: var(--bg-gradient);
+  color: white;
+}
+
+.buttons {
+  background: var(--bg-gradient);
+  color: white;
+}
+
+.buttons:hover {
+  color: white;
+}
+
+.password-box {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #6c757d;
+}
+
+.wishlist-container {
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.table-wrapper {
+  max-height: 470px;
+  overflow-y: auto;
+}
+
+table {
+  margin-bottom: 0;
+}
+
+thead {
+  position: sticky;
+  top: 0;
+  background: #0d6efd;
+  color: #fff;
+  z-index: 1;
+}
+
+th, td {
+  vertical-align: middle !important;
+  text-align: center;
+}
+
+.product-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.remove-btn {
+  transition: 0.3s;
+}
+
+.remove-btn:hover {
+  transform: scale(1.1);
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.table-wrapper::-webkit-scrollbar {
+  width: 8px;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb {
+  background: #0d6efd;
+  border-radius: 10px;
+}
+
+.table-wrapper::-webkit-scrollbar-track {
+  background: #e9ecef;
+}

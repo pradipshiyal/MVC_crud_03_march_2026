@@ -1,0 +1,104 @@
+body {
+  overflow-x: hidden;
+  background: #f4f6f9;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  background: #1f2937;
+}
+
+.sidebar .logo {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 14px;
+  border-bottom: 1px solid #374151;
+  align-items: center;
+}
+
+.sidebar a {
+  color: white;
+  padding: 12px 20px;
+  display: block;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background: #374151;
+}
+
+.submenu a {
+  padding-left: 40px;
+  background: #111827;
+}
+
+.main {
+  margin-left: 250px;
+}
+
+.topbar {
+  height: 60px;
+  background: #1f2937;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  color: white;
+  cursor: pointer;
+}
+
+.content {
+  padding: 20px;
+}
+
+.profile-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.dashboard-card {
+  border-radius: 12px;
+  padding: 25px;
+  color: white;
+  transition: 0.3s;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.product-card {
+  background: linear-gradient(135deg, #4e73df, #224abe);
+}
+
+.brand-card {
+  background: linear-gradient(135deg, #1cc88a, #13855c);
+}
+
+.card-icon {
+  font-size: 35px;
+  opacity: 0.9;
+}
+
+.card-title {
+  font-size: 18px;
+}
+
+.card-number {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.profile-pic {
+  border: 3px solid #1e3c72;
+  border-radius: 100%;
+}
